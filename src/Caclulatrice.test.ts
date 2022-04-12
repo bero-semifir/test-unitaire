@@ -19,10 +19,6 @@ test('Division de 5 par 2 doit retourner 2.5', () => {
         .toBe(2.5);
  });
 
-// test('Division par 0 devrais lancer une exception', () => { 
-//     expect(Calculatrice.division(5,0))
-//     .toThrow(Error);
-// });
 
 test('Division doit retourner un nombre',()=>{
     expect(typeof(Calculatrice.division(5,8))).toBe('number');
